@@ -13,3 +13,15 @@ export function addBook(newBook:Book){
     return repo.addBook(newBook);
 }
 
+export async function getAllBooksWithAuthorPagination(
+    keyword: string,
+    pageSize: number,
+    pageNo: number
+) {
+    const pageBook = await repo.getAllBooksWithAuthorPagination(keyword, pageSize, pageNo);
+    return pageBook;
+}
+
+export function count(){
+    return repo.countBook();
+}
