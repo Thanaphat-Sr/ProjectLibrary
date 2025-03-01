@@ -5,33 +5,33 @@ const prisma = new PrismaClient();
 export async function createBooks() {
     const books = [
         {
-            title: 'Naruto',
-            isbn: '9781421539898',
+            title: 'Dragon Ball',
+            isbn: '9781569319208',
             genre: 'Action',
             authorId: 1
         },
         {
-            title: 'One Piece',
-            isbn: '9781421536255',
+            title: 'Bleach',
+            isbn: '9781421500764',
             genre: 'Adventure',
             authorId: 2
         },
         {
-            title: 'Attack on Titan',
-            isbn: '9781612620244',
+            title: 'Fullmetal Alchemist',
+            isbn: '9781421541958',
             genre: 'Action',
             authorId: 3
         },
         {
-            title: 'Death Note',
-            isbn: '9781421539645',
-            genre: 'Thriller',
+            title: 'Tokyo Ghoul',
+            isbn: '9781421580364',
+            genre: 'Horror',
             authorId: 4
         },
         {
-            title: 'My Hero Academia',
-            isbn: '9781421582696',
-            genre: 'Action',
+            title: 'Fairy Tail',
+            isbn: '9781612622767',
+            genre: 'Fantasy',
             authorId: 5
         }
     ];

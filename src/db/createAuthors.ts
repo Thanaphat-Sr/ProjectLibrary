@@ -4,11 +4,11 @@ const prisma = new PrismaClient();
 
 export async function createAuthors() {
     const authors = [
-        { firstName: 'Masashi', lastName: 'Kishimoto', affiliation: 'Shueisha' },
-        { firstName: 'Eiichiro', lastName: 'Oda', affiliation: 'Shueisha' },
-        { firstName: 'Hajime', lastName: 'Isayama', affiliation: 'Kodansha' },
-        { firstName: 'Tsugumi', lastName: 'Ohba', affiliation: 'Shueisha' },
-        { firstName: 'Kohei', lastName: 'Horikoshi', affiliation: 'Shueisha' }
+        { firstName: 'Akira', lastName: 'Toriyama', affiliation: 'Shueisha' },
+        { firstName: 'Tite', lastName: 'Kubo', affiliation: 'Shueisha' },
+        { firstName: 'Hiromu', lastName: 'Arakawa', affiliation: 'Square Enix' },
+        { firstName: 'Sui', lastName: 'Ishida', affiliation: 'Shueisha' },
+        { firstName: 'Hiro', lastName: 'Mashima', affiliation: 'Kodansha' }
     ];
 
     for (const author of authors) {
