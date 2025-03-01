@@ -5,33 +5,33 @@ const prisma = new PrismaClient();
 export async function createBooks() {
     const books = [
         {
-            title: 'The Great Gatsby',
-            isbn: '9780743273565',
-            genre: 'Fiction',
+            title: 'Naruto',
+            isbn: '9781421539898',
+            genre: 'Action',
             authorId: 1
         },
         {
-            title: 'To Kill a Mockingbird',
-            isbn: '9780061120084',
-            genre: 'Fiction',
+            title: 'One Piece',
+            isbn: '9781421536255',
+            genre: 'Adventure',
             authorId: 2
         },
         {
-            title: '1984',
-            isbn: '9780451524935',
-            genre: 'Dystopian',
+            title: 'Attack on Titan',
+            isbn: '9781612620244',
+            genre: 'Action',
             authorId: 3
         },
         {
-            title: 'Moby Dick',
-            isbn: '9781503280786',
-            genre: 'Adventure',
+            title: 'Death Note',
+            isbn: '9781421539645',
+            genre: 'Thriller',
             authorId: 4
         },
         {
-            title: 'Pride and Prejudice',
-            isbn: '9781503290563',
-            genre: 'Romance',
+            title: 'My Hero Academia',
+            isbn: '9781421582696',
+            genre: 'Action',
             authorId: 5
         }
     ];
